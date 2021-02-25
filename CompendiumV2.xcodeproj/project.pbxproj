@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3A03CB2D25DEED1400A51751 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03CB2C25DEED1400A51751 /* AppDelegate.swift */; };
 		3A03CB2F25DEED1400A51751 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03CB2E25DEED1400A51751 /* SceneDelegate.swift */; };
-		3A03CB3125DEED1400A51751 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03CB3025DEED1400A51751 /* ViewController.swift */; };
+		3A03CB3125DEED1400A51751 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03CB3025DEED1400A51751 /* ViewController1.swift */; };
 		3A03CB3425DEED1400A51751 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03CB3225DEED1400A51751 /* Main.storyboard */; };
 		3A03CB3625DEED1600A51751 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A03CB3525DEED1600A51751 /* Assets.xcassets */; };
 		3A03CB3925DEED1600A51751 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A03CB3725DEED1600A51751 /* LaunchScreen.storyboard */; };
+		3A03CB4225DEED5800A51751 /* Compendium.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03CB4125DEED5800A51751 /* Compendium.swift */; };
+		3A03CB4B25E02DB000A51751 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3A03CB4A25E02DB000A51751 /* Podfile */; };
+		3A03CB5925E0494A00A51751 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03CB5825E0494A00A51751 /* ViewController2.swift */; };
+		3A03CBE325E59DD600A51751 /* compendium.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A03CBE225E59DD600A51751 /* compendium.json */; };
+		3A03CBF125E69AC600A51751 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03CBF025E69AC600A51751 /* Monster.swift */; };
+		3A03CC0425E6F76900A51751 /* patchNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A03CC0325E6F76900A51751 /* patchNotes.swift */; };
+		98B234E4275A9009FB968579 /* Pods_CompendiumV2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C87D6FD830FD5C589027C4E /* Pods_CompendiumV2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C87D6FD830FD5C589027C4E /* Pods_CompendiumV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CompendiumV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DA8BE9E0AC23034EAF84AD4 /* Pods-CompendiumV2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompendiumV2.debug.xcconfig"; path = "Target Support Files/Pods-CompendiumV2/Pods-CompendiumV2.debug.xcconfig"; sourceTree = "<group>"; };
 		3A03CB2925DEED1400A51751 /* CompendiumV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CompendiumV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A03CB2C25DEED1400A51751 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A03CB2E25DEED1400A51751 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A03CB3025DEED1400A51751 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3A03CB3025DEED1400A51751 /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		3A03CB3325DEED1400A51751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A03CB3525DEED1600A51751 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A03CB3825DEED1600A51751 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A03CB3A25DEED1600A51751 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A03CB4125DEED5800A51751 /* Compendium.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compendium.swift; sourceTree = "<group>"; };
+		3A03CB4A25E02DB000A51751 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		3A03CB5825E0494A00A51751 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		3A03CBE225E59DD600A51751 /* compendium.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = compendium.json; path = ../../compendium.json; sourceTree = "<group>"; };
+		3A03CBF025E69AC600A51751 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		3A03CC0325E6F76900A51751 /* patchNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patchNotes.swift; sourceTree = "<group>"; };
+		D9FDAB4293B00FAC2BED232F /* Pods-CompendiumV2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CompendiumV2.release.xcconfig"; path = "Target Support Files/Pods-CompendiumV2/Pods-CompendiumV2.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98B234E4275A9009FB968579 /* Pods_CompendiumV2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +57,11 @@
 		3A03CB2025DEED1400A51751 = {
 			isa = PBXGroup;
 			children = (
+				3A03CB4A25E02DB000A51751 /* Podfile */,
 				3A03CB2B25DEED1400A51751 /* CompendiumV2 */,
 				3A03CB2A25DEED1400A51751 /* Products */,
+				674514471F374541F00BCA5C /* Pods */,
+				75DBC66E57EC6A5D4FC67E62 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +76,61 @@
 		3A03CB2B25DEED1400A51751 /* CompendiumV2 */ = {
 			isa = PBXGroup;
 			children = (
+				3A03CC0325E6F76900A51751 /* patchNotes.swift */,
+				3A03CBE225E59DD600A51751 /* compendium.json */,
+				3A03CBF925E6A2D700A51751 /* View */,
+				3A03CBF425E69AFD00A51751 /* Controllers */,
+				3A03CBF325E69AEA00A51751 /* Models */,
 				3A03CB2C25DEED1400A51751 /* AppDelegate.swift */,
 				3A03CB2E25DEED1400A51751 /* SceneDelegate.swift */,
-				3A03CB3025DEED1400A51751 /* ViewController.swift */,
-				3A03CB3225DEED1400A51751 /* Main.storyboard */,
 				3A03CB3525DEED1600A51751 /* Assets.xcassets */,
 				3A03CB3725DEED1600A51751 /* LaunchScreen.storyboard */,
 				3A03CB3A25DEED1600A51751 /* Info.plist */,
 			);
 			path = CompendiumV2;
+			sourceTree = "<group>";
+		};
+		3A03CBF325E69AEA00A51751 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A03CB4125DEED5800A51751 /* Compendium.swift */,
+				3A03CBF025E69AC600A51751 /* Monster.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A03CBF425E69AFD00A51751 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A03CB3025DEED1400A51751 /* ViewController1.swift */,
+				3A03CB5825E0494A00A51751 /* ViewController2.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3A03CBF925E6A2D700A51751 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3A03CB3225DEED1400A51751 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		674514471F374541F00BCA5C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1DA8BE9E0AC23034EAF84AD4 /* Pods-CompendiumV2.debug.xcconfig */,
+				D9FDAB4293B00FAC2BED232F /* Pods-CompendiumV2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		75DBC66E57EC6A5D4FC67E62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C87D6FD830FD5C589027C4E /* Pods_CompendiumV2.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A03CB3D25DEED1600A51751 /* Build configuration list for PBXNativeTarget "CompendiumV2" */;
 			buildPhases = (
+				111DC6BEEAA6E0F5E0CABC7C /* [CP] Check Pods Manifest.lock */,
 				3A03CB2525DEED1400A51751 /* Sources */,
 				3A03CB2625DEED1400A51751 /* Frameworks */,
 				3A03CB2725DEED1400A51751 /* Resources */,
+				476E160603EC68DC33627F74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,21 +192,69 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A03CBE325E59DD600A51751 /* compendium.json in Resources */,
 				3A03CB3925DEED1600A51751 /* LaunchScreen.storyboard in Resources */,
 				3A03CB3625DEED1600A51751 /* Assets.xcassets in Resources */,
+				3A03CB4B25E02DB000A51751 /* Podfile in Resources */,
 				3A03CB3425DEED1400A51751 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		111DC6BEEAA6E0F5E0CABC7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CompendiumV2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		476E160603EC68DC33627F74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompendiumV2/Pods-CompendiumV2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CompendiumV2/Pods-CompendiumV2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CompendiumV2/Pods-CompendiumV2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3A03CB2525DEED1400A51751 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A03CB3125DEED1400A51751 /* ViewController.swift in Sources */,
+				3A03CB5925E0494A00A51751 /* ViewController2.swift in Sources */,
+				3A03CB4225DEED5800A51751 /* Compendium.swift in Sources */,
+				3A03CB3125DEED1400A51751 /* ViewController1.swift in Sources */,
+				3A03CC0425E6F76900A51751 /* patchNotes.swift in Sources */,
 				3A03CB2D25DEED1400A51751 /* AppDelegate.swift in Sources */,
+				3A03CBF125E69AC600A51751 /* Monster.swift in Sources */,
 				3A03CB2F25DEED1400A51751 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,6 +399,7 @@
 		};
 		3A03CB3E25DEED1600A51751 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DA8BE9E0AC23034EAF84AD4 /* Pods-CompendiumV2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +419,7 @@
 		};
 		3A03CB3F25DEED1600A51751 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9FDAB4293B00FAC2BED232F /* Pods-CompendiumV2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
