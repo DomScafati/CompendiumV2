@@ -3,7 +3,7 @@ import SkeletonView
 
 class ViewController1: UIViewController, SkeletonTableViewDataSource, UITableViewDelegate  {
 //DECLARATIONS
-//========================================================================================
+//===========================================================================================
     @IBOutlet weak var tableView: UITableView!
     var compendium = Compendium().compendium
     var index = 0;
@@ -16,6 +16,8 @@ class ViewController1: UIViewController, SkeletonTableViewDataSource, UITableVie
     }//creates the row cound
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+                
+        
         let cellIdentifier = "Cell";
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath)
         //creates the cell
@@ -26,9 +28,11 @@ class ViewController1: UIViewController, SkeletonTableViewDataSource, UITableVie
         
         return cell;
     }//populates the cell with data
+     
     
     func collectionSkeletonView(_ skeletonView: UITableView, cellIdentifierForRowAt indexPath: IndexPath) -> ReusableCellIdentifier {
         self.view.hideSkeleton();
+         
         return "Cell"
     }//sets up the skeleton gradient animation
     
@@ -36,7 +40,7 @@ class ViewController1: UIViewController, SkeletonTableViewDataSource, UITableVie
         
         let gradient = SkeletonGradient(baseColor:#colorLiteral(red: 0.5489894748, green: 1, blue: 0.3998864293, alpha: 1) )
         let animation = SkeletonAnimationBuilder().makeSlidingAnimation(withDirection: .leftRight)
-       // view.showAnimatedGradientSkeleton(usingGradient: gradient, animation: animation, transition: .none)
+       view.showAnimatedGradientSkeleton(usingGradient: gradient, animation: animation, transition: .none)
         
     }//customizes the skeleton gradient. place this into the viewDidLoad
     
@@ -54,7 +58,7 @@ class ViewController1: UIViewController, SkeletonTableViewDataSource, UITableVie
     }
     
 //JSON METHODS
-//======================================================================
+//============================================================================================
     func jsonParse()->Compendium{
         
         var monster: Compendium?
@@ -85,10 +89,10 @@ class ViewController1: UIViewController, SkeletonTableViewDataSource, UITableVie
     }    //parse json file
     
     //VIEW DID LOAD
-    //=====================================================================================
+    //===========================================================================================
     override func viewDidLoad() {
         super.viewDidLoad()
-        gradientCustomize();
+        //gradientCustomize();
         tableView.dataSource = self;
         tableView.delegate = self;
         compendium = jsonParse().compendium
